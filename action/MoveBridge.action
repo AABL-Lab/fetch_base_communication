@@ -1,0 +1,9 @@
+# Define the goal
+string behavior  # Which behavior do we want to enact(turning, moving, etc.)?
+string location # Where do we want to go?
+---
+# Define the result
+string result = Done
+---
+# Define a feedback message
+string feedback = Moving to goal
